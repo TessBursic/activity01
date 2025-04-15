@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Name: Add Your Name Here
+##Tess Bursic
 
-FIRST_VALUE = 0  # TODO: Replace 0 with the 1st value provided by Prof. Zhao
-SECOND_VALUE = 0  # TODO: Replace 0 with the 2nd value provided by Prof. Zhao
+FIRST_VALUE = 10  # TODO: Replace 0 with the 1st value provided by Prof. Zhao
+SECOND_VALUE = 5  # TODO: Replace 0 with the 2nd value provided by Prof. Zhao
 
 print("Completed story problem:")
 print(f"What value do you get when you raise FIRST_VALUE to the power of SECOND_VALUE?")
 
-student_answer = 0  # TODO: Replace 0 with your answer
+student_answer = 100000  # TODO: Replace 0 with your answer
 
-correct_result = 0  # TODO: Replace 0 with a function
+correct_result = FIRST_VALUE^SECOND_VALUE  # TODO: Replace 0 with a function
 
 if student_answer == correct_result:
     print(f"The correct value is {correct_result}. You answered the problem correctly!")
